@@ -214,61 +214,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &567148078 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2250442282443449773, guid: e8a92c6cbc7624caba1d2cd3db94a418, type: 3}
-  m_PrefabInstance: {fileID: 7452456763085934843}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &567148082
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 567148078}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.30011225, y: 0.10003698}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.41, y: 7.16}
-    newSize: {x: 9.41, y: 7.16}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 6.542268, y: 4.69242}
-  m_EdgeRadius: 0
---- !u!1 &946843903 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1831200407558050959, guid: 8a08f4319726545ea99039b8976cba9d, type: 3}
-  m_PrefabInstance: {fileID: 8292676729896788465}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &304300500953011430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -607,12 +552,7 @@ PrefabInstance:
       value: FieldObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 3088646590279604166, guid: b0a286355d8474694b558f48e446c583, type: 3}
-    - {fileID: 8332174832365336808, guid: b0a286355d8474694b558f48e446c583, type: 3}
-    - {fileID: 420770720239994266, guid: b0a286355d8474694b558f48e446c583, type: 3}
-    - {fileID: 1970669596106373710, guid: b0a286355d8474694b558f48e446c583, type: 3}
-    - {fileID: 4244485892060609722, guid: b0a286355d8474694b558f48e446c583, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0a286355d8474694b558f48e446c583, type: 3}
@@ -842,10 +782,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2250442282443449773, guid: e8a92c6cbc7624caba1d2cd3db94a418, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 567148082}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a92c6cbc7624caba1d2cd3db94a418, type: 3}
 --- !u!1001 &7494784049853989907
 PrefabInstance:
@@ -899,22 +836,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8548777409070908127, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-      propertyPath: DeckObject
-      value: 
-      objectReference: {fileID: 946843903}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 8817843932320854112, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-    - {fileID: 1699000752751612808, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-    - {fileID: 2379182822666841093, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-    - {fileID: 5952284206034594498, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-    - {fileID: 6120915489913168514, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-    - {fileID: 4776691477992391357, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-    - {fileID: 6661709491725925897, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-    - {fileID: 1367336356257162661, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-    - {fileID: 3690779166024679317, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
-    - {fileID: 3710194071945110995, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
