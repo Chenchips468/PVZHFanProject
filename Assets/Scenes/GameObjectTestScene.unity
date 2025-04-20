@@ -264,11 +264,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.542268, y: 4.69242}
   m_EdgeRadius: 0
---- !u!1 &946843903 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1831200407558050959, guid: 8a08f4319726545ea99039b8976cba9d, type: 3}
-  m_PrefabInstance: {fileID: 8292676729896788465}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &304300500953011430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -801,11 +796,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2623544408769006019, guid: e8a92c6cbc7624caba1d2cd3db94a418, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.15
+      value: -5.35
       objectReference: {fileID: 0}
     - target: {fileID: 2623544408769006019, guid: e8a92c6cbc7624caba1d2cd3db94a418, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7
+      value: -4.15
       objectReference: {fileID: 0}
     - target: {fileID: 2623544408769006019, guid: e8a92c6cbc7624caba1d2cd3db94a418, type: 3}
       propertyPath: m_LocalPosition.z
@@ -902,7 +897,7 @@ PrefabInstance:
     - target: {fileID: 8548777409070908127, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}
       propertyPath: DeckObject
       value: 
-      objectReference: {fileID: 946843903}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8817843932320854112, guid: 16c61bf2aef1842dfbdacb7f4d4fbcb8, type: 3}

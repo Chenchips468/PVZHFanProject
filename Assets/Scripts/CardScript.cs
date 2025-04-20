@@ -107,5 +107,6 @@ public class CardScript : MonoBehaviour
     }
     void Start(){
         InitializeCard(AnchorPosition: transform.position);
+        Debug.Log(GetComponent<SpriteRenderer>().bounds.size.x);
     }
 }
