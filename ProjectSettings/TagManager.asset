@@ -3,18 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Card Info
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - EditorOnly
+  - Lane
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Zones
+  - Field
+  - Hero
+  - OpHero
   - 
   - 
   - 
@@ -40,4 +41,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ArtLayer
+    uniqueID: 2929228159
+    locked: 0
+  - name: EnemyHero
+    uniqueID: 858140235
+    locked: 0
+  - name: FieldLayer
+    uniqueID: 2624548953
+    locked: 0
+  - name: MinionLayer
+    uniqueID: 2101461801
+    locked: 0
+  - name: HeroLayer
+    uniqueID: 204098191
+    locked: 0
+  - name: CardLayer
+    uniqueID: 4042970241
+    locked: 0
+  - name: UI Layer
+    uniqueID: 3016116757
+    locked: 0
+  - name: SelectedLayer
+    uniqueID: 687614451
     locked: 0
